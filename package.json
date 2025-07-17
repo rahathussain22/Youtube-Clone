@@ -2,15 +2,18 @@
   "name": "chai-aur-backend",
   "version": "1.0.0",
   "description": "Backend project",
+  "type":"module",
   "keywords": [
     "Javascript",
     "Backend"
   ],
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
   "license": "ISC",
   "author": "Rahat Hussain",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   }
 }
