@@ -2,13 +2,14 @@
   "name": "chai-aur-backend",
   "version": "1.0.0",
   "description": "Backend project",
-  "type":"module",
+  "type": "module",
   "keywords": [
     "Javascript",
     "Backend"
   ],
   "devDependencies": {
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
   },
   "license": "ISC",
   "author": "Rahat Hussain",
